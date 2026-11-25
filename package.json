@@ -1,0 +1,48 @@
+{
+  "name": "scriptorium",
+  "displayName": "Scriptorium",
+  "description": "A quiet light theme on warm paper. No colors in your code: only grays, bold and italic.",
+  "version": "1.0.0",
+  "publisher": "gurtinho",
+  "license": "MIT",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#D8D2C9",
+    "theme": "light"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gurtinho/scriptorium"
+  },
+  "homepage": "https://github.com/gurtinho/scriptorium#readme",
+  "bugs": {
+    "url": "https://github.com/gurtinho/scriptorium/issues"
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "monochrome",
+    "grayscale",
+    "minimal",
+    "paper",
+    "cream",
+    "sepia",
+    "no colors",
+    "eye strain"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Scriptorium",
+        "uiTheme": "vs",
+        "path": "./themes/Scriptorium-color-theme.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+tools/**
+images/screenshot-*.png
+*.vsix
+build.sh
+.gitignore
+.git/**
