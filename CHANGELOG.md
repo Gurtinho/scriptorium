@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+
+- HTML, JSX and XML tags and attributes are now regular weight, no bold or italic.
+
 ## 1.0.0
 
 - First release.

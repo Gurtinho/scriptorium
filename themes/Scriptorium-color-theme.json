@@ -491,8 +491,7 @@
                 "storage.type.tsx",
                 "storage.type.rust",
                 "support.type.object.module",
-                "variable.language.super",
-                "meta.tag.sgml.doctype.html"
+                "variable.language.super"
             ],
             "settings": { "foreground": "#2B2A27", "fontStyle": "bold" }
         },
@@ -577,18 +576,19 @@
             "settings": { "foreground": "#3B3A36", "fontStyle": "" }
         },
 
-        // HTML / Blade / XML
+        // HTML / JSX / Blade / XML: tudo normal, sem negrito nem itálico
         {
-            "scope": ["entity.name.tag"],
-            "settings": { "foreground": "#2B2A27", "fontStyle": "bold" }
-        },
-        {
-            "scope": ["entity.other.attribute-name"],
-            "settings": { "foreground": "#4A4843", "fontStyle": "italic" }
-        },
-        {
-            "scope": ["entity.other.attribute-name.class", "entity.other.attribute-name.id"],
-            "settings": { "foreground": "#2B2A27", "fontStyle": "bold" }
+            "scope": [
+                "entity.name.tag",
+                "support.class.component",
+                "entity.name.tag support.class",
+                "meta.tag.sgml.doctype",
+                "entity.other.attribute-name",
+                "entity.other.attribute-name.class",
+                "entity.other.attribute-name.id",
+                "meta.tag entity.other.attribute-name"
+            ],
+            "settings": { "foreground": "#3B3A36", "fontStyle": "" }
         },
 
         // Markdown
